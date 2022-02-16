@@ -11,7 +11,7 @@ namespace EShop.Repository.Implementation
     {
 
         private readonly ApplicationDbContext context;
-        private DbS et<Order> entities;
+        private DbSet<Order> entities;
         string errorMessage = string.Empty;
 
         public OrderRepository(ApplicationDbContext context)
